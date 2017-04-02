@@ -1,0 +1,134 @@
+body{
+  background: url('../img/background.png');
+  font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif;
+  font-weight: bold ;
+
+}
+
+h1,h2{
+  font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
+  font-weight: bold  !important;
+  letter-spacing: 14px;
+  text-align: center;
+}
+
+h1{
+  letter-spacing: 18px;
+  color: rgb(159, 102, 239) !important;
+  font-size: 46px !important;
+  margin: 100px 20px 30px 20px !important;
+}
+
+h2{
+  margin: 20px 20px 20px 20px !important;
+}
+
+.subtitle-1,.subtitle-2,.law,.student{
+  background: url('../img/textback.png');
+  border-radius: 5px;
+  margin  : 50px 30px; 
+  padding : 45px 45px; 
+  border-right: 2px solid  rgba(147, 142, 210, 0.81);
+  border-bottom: 3px solid  rgba(147, 142, 210, 0.81);
+}
+
+.subtitle-1 p,.subtitle-2 p{
+  font-size: 24px;
+}
+
+#electionintro,#totaleintro,#Signup{
+  position: relative;
+  margin: 0 auto;
+  width: 80vw;
+}
+
+#electionintro .electionintrotitle{
+  padding: 0 auto !important;
+}
+
+#leaderintro .leaderintrotitle{
+  padding: 0 auto !important;
+}
+
+#leaderintro .DepartmentScience{
+  padding: 0 auto !important;
+}
+
+#leaderintro .StudentRepresent{
+  padding: 0 auto !important;
+}
+
+.subtitle-1{
+  padding-right: 30px !important;
+}
+
+.subtitle-2{
+  padding-left: 30px !important;
+}
+
+#Signup .subtitle-1{
+  font-size: 13px; 
+}
+
+
+.carousel-inner .item .card{
+  display: flex !important;
+}
+
+.carousel-inner .item {
+  margin: 30px;
+}
+
+.carousel-inner .item img{
+  border-radius: 5px;
+  height: 350px;
+  width: 250px;
+}
+
+.card .context{
+  margin: 15px 10px;
+}
+
+.card .picture p{
+  font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 0px;
+  font-weight: bold !important;  
+}
+
+.carousel-inner{
+  background: url('../img/subbackground.png');
+  width: 80vw;
+  height: 550px;
+  border-radius: 15px;
+  border-bottom: 4px solid rgba(121, 85, 171, 0.29);
+  border-right: 3px solid rgba(121, 85, 171, 0.29);
+}
+
+.carousel-control{
+  border-radius: 15px;
+  width: 100px !important;
+}
+
+.context .col-md-4 p,.context .col-md-3 p,.context .col-md-8 p{
+  margin: 0px 10px;
+}
+
+.context .col-md-4,.context .col-md-3{
+  padding: 10px 0px;
+  margin: 0px 10px 
+}
+
+.context .col-md-8{
+  padding: 10px 0px;
+}
+
+.context .bline{
+  display: flex;
+  font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
+  font-size: 24px;
+  font-weight: bold !important;
+  margin: 0 10px;
+  border-bottom: 4.75px solid;
+}
