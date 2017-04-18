@@ -302,3 +302,8 @@ h2{
   width: 500px;
   opacity: 0.75;
 }
+
+#lawSubtitle{
+  font-size: 19px;
+  padding-right: 0px;
+}
