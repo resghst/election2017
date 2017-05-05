@@ -1,0 +1,309 @@
+body{
+  overflow-x: auto;
+  background: url('../img/background.png');
+  font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
+  font-weight: bold ;
+  z-index: 0;
+}
+
+body:before{
+  content: '';
+  opacity: 0.5;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:rgb(223, 245, 242);
+}
+
+h1,h2{
+  font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
+  font-weight: bold  !important;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+h1{
+  letter-spacing: 18px;
+  color: #2F9296 !important;
+  font-size: 46px !important;
+  margin: 100px 0px 50px 0px !important;
+}
+
+h2{
+  margin: 20px 0px 20px 0px !important;
+}
+
+.alltitle{
+  margin: 0 auto;
+}
+
+.alltitle img{
+  width: 30vw;
+  margin: auto;
+  margin-top: 50px; 
+  display: -webkit-box;
+}
+
+.alltitle p{
+  font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
+  font-weight: bold  !important;
+  letter-spacing: 15px;
+  text-align: center;
+  margin-top: 20px;  
+  font-size: 80px;
+  color: #2F9296; 
+}
+
+.subtitle-1,.subtitle-2{
+  background: url('../img/textback.png');
+  border-radius: 5px;
+  margin  : 50px 30px; 
+  padding : 45px 45px; 
+  border-right: 2px solid  #87DFD6;
+  border-bottom: 3px solid  #46B7B9;
+}
+
+.law,.data,.callme,.attention{
+  background: url('../img/textback.png');
+  border-radius: 5px;
+  margin  : 80px 10px 40px 20px; 
+  padding: 5px 45px;
+  border-right: 2px solid  #87DFD6;
+  border-bottom: 3px solid  #46B7B9;
+}
+.data{
+  margin  : 80px 10px 0px 20px; 
+}
+
+.callme,.attention{
+  font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
+  margin: 10px 10px 0px 20px;
+  font-size: 18px;
+}
+
+
+.attention .col-md-4,.attention .col-md-6{
+  padding: 0px;
+}
+
+.subtitle-1 p,.subtitle-2 p{
+  font-size: 24px;
+}
+
+
+#electionintro,#totaleintro{
+  position: relative;
+  margin: 0 auto;
+  width: 60vw;
+}
+
+#signup h2{
+  color: #2F9296 !important;
+}
+
+#signup{
+  position: relative;
+  margin: 0 auto;
+  width: 80vw;
+  font-size: 15 !important;
+}
+
+#electionintro .electionintrotitle,#leaderintro .departmentscience,#leaderintro .studentrepresent,#leaderintro .leaderintrotitle{
+  padding: 0 auto !important;
+}
+
+.subtitle-1{
+  padding-right: 30px !important;
+}
+
+.subtitle-2{
+  padding-left: 30px !important;
+}
+
+#signup .qualification,#signup .electiondata{
+  font-size: 40px; 
+}
+
+.law p,.lower p,.callme p,.attention p{
+  font-size: 15px; 
+  margin: 5px 0px 5px 0px;
+  color: rgba(76, 84, 84, 0.84) !important;
+}
+
+.data p{
+  font-size: 18px;
+  margin: 10px 20px 10px 20px;
+  color: rgba(76, 84, 84, 0.84) !important;
+}
+
+.student p{
+  font-size: 18px; 
+  margin: 10px 20px 10px 20px;
+  color: rgba(76, 84, 84, 0.84) !important;
+}
+
+.lawdtail{
+  margin-bottom: -16px !important;
+  font-size: 18px !important;
+}
+
+.lower{
+  margin: 5px 0px 5px 0px !important;
+}
+
+.carousel-inner .item .card{
+  display: flex !important;
+}
+
+.carousel-inner .item {
+  margin: 30px;
+}
+
+.leader .item .picture p{
+  margin: 15px 0px;
+}
+
+.departmentscience .picture p,.studentrepresent .item .picture p{
+  margin: 20px 0px;
+}
+
+.leader .item .picture img{
+  margin: 15px 20px;
+}
+
+.departmentscience .picture img,.studentrepresent .item .picture img{
+  margin: 40px 30px 30px 30px;
+}
+
+.carousel-inner .item img{
+  border-radius: 5px;
+  margin: 20px;
+  height: 240px;
+  width: 200px;
+}
+
+.card .context{
+  margin: 15px 10px;
+}
+
+.btn.leader{
+  opacity: 0.8;
+  display: block;
+  margin: 30px auto ;
+  width: 90%;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
+  color: #ffffff;
+  letter-spacing: 4px;
+  background: #66C6BA !important;
+  border-radius: 25px;
+}
+
+.btn.studentrepresent{
+  opacity: 0.8;
+  display: block;
+  margin: 30px auto;
+  width: 90%;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
+  color: #ffffff;
+  letter-spacing: 4px;
+  background: #66C6BA !important;
+  border-radius: 25px;
+}
+
+.btn.departmentscience{
+  opacity: 0.8;
+  display: block;
+  margin: 30px auto;
+  width: 90%;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
+  color: #ffffff;
+  letter-spacing: 4px;
+  background: #66C6BA !important;
+  border-radius: 25px;
+}
+
+.card .picture p{
+  font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 0px;
+  font-weight: bold !important;  
+}
+
+.carousel-inner{
+  background: url('../img/subbackground.png');
+  width: 60vw;
+  height: 550px;
+  border-radius: 15px;
+  border-bottom: 3px solid #46B7B9;
+  border-right: 2.5px solid #87DFD6;
+}
+
+.carousel-control{
+  border-radius: 15px;
+  width: 100px !important;
+}
+
+.context .col-md-4 p,.context .col-md-3 p,.context .col-md-8 p,.context .col-md-6 p{
+  margin: 0px 5px;
+  font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
+  font-weight: bold !important;
+  font-size: 14px;
+}
+
+.context .col-md-4,.context .col-md-3{
+  padding: 10px 0px;
+  margin: 0px 10px 
+}
+
+.context .col-md-8{
+  padding: 10px 0px;
+}
+
+.context .col-md-6{
+  padding: 10px 0px;
+}
+
+.context .bline p{
+  display: flex;
+  font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
+  font-size: 24px ;
+  font-weight: bold !important;
+  margin: 0 5px;
+  border-bottom: 4.75px solid #46B7B9;
+}
+
+#Emblem{
+  margin: 100px auto;
+  width: 85%;
+} 
+.departmenticon{
+  margin: 60px auto;
+  color: rgb(70, 139, 189);
+}
+.departmenticon p{
+  font-size: 300px;
+  text-align: center;
+}
+
+#sgicon{
+  display: -webkit-box;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: 500px;
+  opacity: 0.75;
+}
+
+#lawSubtitle{
+  font-size: 19px;
+  padding-right: 0px;
+}
